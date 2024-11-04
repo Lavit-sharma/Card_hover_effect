@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-top: 80px;
+}
+#head {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 80px;
+    text-align: center;
+    width: 100%; 
+    margin: 0 auto; 
+    margin-top: 20px;
+    display: block;
+}
+
+.image {
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 10%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 15px 15px;
+    transition: all 0.3s ease-in-out;
+    transform: translateZ(0px); 
+
+}
+
+.image:hover {
+    width: 20%;
+    transform: translateZ(20px);
+    
+}
